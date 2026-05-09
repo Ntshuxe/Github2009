@@ -56,6 +56,25 @@ EduBridge South Africa is a fictional non-profit organisation (NPO) dedicated to
 - GitHub repository established with regular commits
 - HTML comments added throughout all pages
 
+## Part 2 - CSS Styling and Responsive Design
+
+### Responsive Design Evidence
+
+#### Desktop View (1200px+)
+![Desktop screenshot](images/screenshot-desktop.png)
+
+#### Mobile View (480px)
+![Mobile screenshot](images/mobile screenshot.png)
+
+### CSS Features Implemented
+- External stylesheet linked to all 5 pages
+- CSS reset for consistent cross-browser styling
+- Typography: Poppins (headings) + Open Sans (body)
+- Layout: Flexbox and Grid for responsive structure
+- Colour scheme: #1A5F7A (teal) + #F7C35C (yellow)
+- Pseudo-classes: :hover, :focus, :active on links, buttons, form inputs
+- Responsive breakpoints at 768px (tablet) and 480px (mobile)
+
 ## Changelog
 
 ### Version 1.0.0 (Initial Setup)
@@ -134,6 +153,14 @@ EduBridge South Africa is a fictional non-profit organisation (NPO) dedicated to
 - Cross-browser testing completed
 - All links functional
 
+### 2026-05-08 – Part 2: CSS Styling and Responsive Design
+- Created external style.css with CSS reset, base styles, typography, layout, and visual styles
+- Added pseudo-classes (:hover, :focus, :active) for interactive elements
+- Implemented responsive design with media queries for tablet (768px) and mobile (480px)
+- Adjusted layout, typography, navigation, and images for all breakpoints
+- Added screenshot evidence of responsive design
+- Updated references with CSS resources
+
 ---
 
 ## References
@@ -169,6 +196,18 @@ Maluleke, G. 2025. *EduBridge SA logo design*. [digital image] (Personal Collect
 Let's Encrypt, 2025. *Free SSL certificates for websites*. [online] Available at: <https://letsencrypt.org> [Accessed 15 April 2025].
 
 WCAG, 2025. *Web Content Accessibility Guidelines (WCAG) 2.1*. [online] Available at: <https://www.w3.org/WAI/standards-guidelines/wcag/> [Accessed 15 April 2025].
+
+## References for Part 2
+
+Google Fonts, 2026. *Poppins + Open Sans*. [online] Available at: <https://fonts.google.com> [Accessed 8 May 2026].
+
+Mozilla Developer Network, 2026. *CSS: Cascading Style Sheets*. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS> [Accessed 8 May 2026].
+
+W3Schools, 2026. *CSS Tutorial*. [online] Available at: <https://www.w3schools.com/css/> [Accessed 8 May 2026].
+
+CSS-Tricks, 2026. *A Complete Guide to Flexbox*. [online] Available at: <https://css-tricks.com/snippets/css/a-guide-to-flexbox/> [Accessed 8 May 2026].
+
+CSS-Tricks, 2026. *A Complete Guide to Grid*. [online] Available at: <https://css-tricks.com/snippets/css/complete-guide-grid/> [Accessed 8 May 2026].
 
 ---
 
