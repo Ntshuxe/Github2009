@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Involved | Volunteer or Sponsor EduBridge SA</title>
-    <meta name="description" content="Volunteer your time, sponsor a learner, or partner with EduBridge SA. Complete our enquiry form to start making a difference.">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Volunteer your time, sponsor a learner, or partner with EduBridge SA. Complete our enquiry form to start making a difference in South African education.">
+    <meta name="keywords" content="volunteer South Africa, sponsor education, digital divide, EduBridge SA enquiry, coding volunteer">
+    <meta name="author" content="EduBridge SA">
     
     <!-- Google Fonts - Poppins for headings, Open Sans for body text -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     
     <!-- External CSS stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- JavaScript for Part 3 functionality -->
+    <script src="js/main.js" defer></script>
 </head>
 <body>
 
@@ -52,7 +59,7 @@
                     <p>Join our team of dedicated volunteers helping to bridge the digital divide.</p>
                 </div>
                 
-                <form action="#" method="post" class="enquiry-form">
+                <form action="#" method="post" class="enquiry-form" id="volunteerForm">
                     <div class="form-group">
                         <label for="volunteer-name">Full Name *</label>
                         <input type="text" id="volunteer-name" name="volunteer-name" required minlength="2">
@@ -74,7 +81,7 @@
                     </div>
                     
                     <div class="form-group">
-                        <label for="volunteer-skills">Skills & Qualifications</label>
+                        <label for="volunteer-skills">Skills and Qualifications</label>
                         <textarea id="volunteer-skills" name="volunteer-skills" rows="3" placeholder="e.g., teaching experience, coding skills, administration, event planning..."></textarea>
                     </div>
                     
@@ -105,7 +112,7 @@
                     <p>Support our mission through corporate or individual sponsorship.</p>
                 </div>
                 
-                <form action="#" method="post" class="enquiry-form">
+                <form action="#" method="post" class="enquiry-form" id="sponsorForm">
                     <div class="form-group">
                         <label for="sponsor-org">Organisation Name *</label>
                         <input type="text" id="sponsor-org" name="sponsor-org" required>

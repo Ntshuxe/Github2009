@@ -3,14 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact EduBridge SA | Locations & Contact Information</title>
-    <meta name="description" content="Contact EduBridge South Africa. Visit our Soweto or Tembisa hubs, call us, or send a message. We have multiple locations across Gauteng.">
+    <title>Contact EduBridge SA | Locations and Contact Information</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Contact EduBridge SA. Visit our Soweto or Tembisa hubs, call us, or send a message. We have multiple locations across Gauteng.">
+    <meta name="keywords" content="contact EduBridge SA, Soweto hub, Tembisa hub, education NGO South Africa, digital divide">
+    <meta name="author" content="EduBridge SA">
     
     <!-- Google Fonts - Poppins for headings, Open Sans for body text -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     
     <!-- External CSS stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Leaflet CSS for interactive maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- JavaScript for Part 3 functionality -->
+    <script src="js/main.js" defer></script>
+    
+    <!-- Leaflet JavaScript for interactive maps -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
 
@@ -69,7 +82,7 @@
         <section class="contact-form-section">
             <h2>Send Us a Message</h2>
             
-            <form action="#" method="post" class="contact-form">
+            <form action="#" method="post" class="contact-form" id="contactForm">
                 <div class="form-group">
                     <label for="contact-name">Your Name *</label>
                     <input type="text" id="contact-name" name="contact-name" required>
@@ -114,8 +127,8 @@
                     <p>123 Vilakazi Street, Orlando West, Soweto, 1804</p>
                     <p><strong>Phone:</strong> 011 123 4567</p>
                     <p><strong>Hours:</strong> Mon-Fri: 9am-5pm | Sat: 10am-2pm</p>
-                    <img src="images/Soweto-map.jpg" alt="Map showing Soweto hub location" width="400">
-                    <p class="map-note"><em>Interactive map coming in Part 3</em></p>
+                    <div id="sowetoMap" style="width:100%; height:250px; border-radius:10px; margin-top:0.5rem;"></div>
+                    <p class="map-note">Interactive map showing the Soweto hub location</p>
                 </div>
                 
                 <!-- Location 2: Tembisa -->
@@ -124,8 +137,8 @@
                     <p>45 Reverend RTJ Namane Drive, Tembisa, 1632</p>
                     <p><strong>Phone:</strong> 011 123 4568</p>
                     <p><strong>Hours:</strong> Mon-Fri: 9am-5pm | Sat: 10am-2pm</p>
-                    <img src="images/tembisa-map-placeholder.jpg" alt="Map showing Tembisa hub location" width="400">
-                    <p class="map-note"><em>Interactive map coming in Part 3</em></p>
+                    <div id="tembisaMap" style="width:100%; height:250px; border-radius:10px; margin-top:0.5rem;"></div>
+                    <p class="map-note">Interactive map showing the Tembisa hub location</p>
                 </div>
             </div>
         </section>
