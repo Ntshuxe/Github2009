@@ -4,11 +4,11 @@
 EduBridge SA - Digital Literacy NGO Website
 
 ## Student Information
-- **Name:** [Maluleke Ntshuxeko]
-- **Student Number:** [ST10493052]
+- **Name:** Maluleke Ntshuxeko
+- **Student Number:** ST10493052
 - **Module:** Web Development (Introduction) - WEDE5020
-- **Assessment:** PoE Part 1 - Building the Foundation
-- **Date:** [18 April 2026]
+- **Assessment:** PoE Part 1, Part 2 and Part 3
+- **Date:** 19 June 2026
 
 ## Project Overview
 EduBridge South Africa is a fictional non-profit organisation (NPO) dedicated to bridging the digital divide in underprivileged South African communities. This website serves as the organisation's digital presence, providing information about programmes, enabling volunteer applications, facilitating sponsorship enquiries, and offering contact options for stakeholders.
@@ -28,22 +28,29 @@ EduBridge South Africa is a fictional non-profit organisation (NPO) dedicated to
 ## Key Features and Functionality
 - 5 interconnected HTML pages with functional navigation
 - Semantic HTML5 structure (header, nav, main, footer)
-- Enquiry page with two forms (volunteer + sponsorship)
-- Contact page with two locations (Soweto + Tembisa)
+- Enquiry page with two forms (volunteer + sponsorship) with JavaScript validation
+- Contact page with two locations (Soweto + Tembisa) with interactive Leaflet maps
 - HTML comments throughout all code
 - Proper indentation and readable code structure
+- Image lightbox gallery for programme images
+- Programme search filter
+- SEO meta tags on all pages
+- robots.txt and sitemap.xml for search engine optimisation
+- Deployed on GitHub Pages
 
 ## Timeline and Milestones
 
 | Milestone | Target Date | Status |
 |-----------|-------------|--------|
-| Submit two initial proposals | [DATE] | Complete |
-| Receive lecturer approval | [DATE] | Complete |
-| Create HTML structure for 5 pages | [DATE] | Complete |
-| Integrate researched content | [DATE] | Complete |
-| Push code to GitHub with commits | [DATE] | Complete |
-| Complete README.md and changelog | [DATE] | Complete |
-| Part 1 final submission | [DATE] | Pending |
+| Submit two initial proposals | April 2026 | Complete |
+| Receive lecturer approval | April 2026 | Complete |
+| Create HTML structure for 5 pages | April 2026 | Complete |
+| Integrate researched content | April 2026 | Complete |
+| Push code to GitHub with commits | April 2026 | Complete |
+| Complete README.md and changelog | April 2026 | Complete |
+| Part 1 final submission | April 2026 | Complete |
+| Part 2 CSS Styling | May 2026 | Complete |
+| Part 3 JavaScript, SEO and Deployment | June 2026 | Complete |
 
 ## Sitemap
 
@@ -64,7 +71,7 @@ EduBridge South Africa is a fictional non-profit organisation (NPO) dedicated to
 ![Desktop screenshot](images/screenshot-desktop.png)
 
 #### Mobile View (480px)
-![Mobile screenshot](images/mobile screenshot.png)
+![Mobile screenshot](images/mobile%20screenshot.png)
 
 ### CSS Features Implemented
 - External stylesheet linked to all 5 pages
@@ -75,10 +82,33 @@ EduBridge South Africa is a fictional non-profit organisation (NPO) dedicated to
 - Pseudo-classes: :hover, :focus, :active on links, buttons, form inputs
 - Responsive breakpoints at 768px (tablet) and 480px (mobile)
 
+## Part 3 Details - JavaScript, SEO, and Deployment
+
+### JavaScript Features Implemented
+- Form validation for volunteer application form (name, email, phone, age, availability, motivation)
+- Form validation for sponsorship enquiry form (organisation, contact, email, phone, type, message)
+- Form validation for contact form (name, email, subject, message)
+- Image lightbox gallery (click any programme image to enlarge)
+- Interactive Leaflet maps for Soweto and Tembisa locations with markers and popups
+- Programme search filter (type to filter programmes)
+
+### SEO Features Implemented
+- Unique meta titles for all 5 pages
+- Unique meta descriptions for all 5 pages
+- Meta keywords for all 5 pages
+- Meta author for all 5 pages
+- robots.txt file
+- sitemap.xml file
+- Descriptive alt text for all images
+
+### Deployment
+- Website deployed on GitHub Pages
+- Live URL: https://yourusername.github.io/EduBridgeSA-Website/
+
 ## Changelog
 
 ### Version 1.0.0 (Initial Setup)
-**Date:** [10/04/2026]
+**Date:** 10/04/2026
 
 **Added:**
 - Initial project setup
@@ -92,7 +122,7 @@ EduBridge South Africa is a fictional non-profit organisation (NPO) dedicated to
 ---
 
 ### Version 1.1.0 (HTML Structure Created)
-**Date:** [14/04/2026]
+**Date:** 14/04/2026
 
 **Added:**
 - Created index.html with semantic structure (header, nav, main, footer)
@@ -113,7 +143,7 @@ EduBridge South Africa is a fictional non-profit organisation (NPO) dedicated to
 ---
 
 ### Version 1.2.0 (Content Integration)
-**Date:** [16/04/2026]
+**Date:** 16/04/2026
 
 **Added:**
 - Integrated researched text content to all pages
@@ -136,7 +166,7 @@ EduBridge South Africa is a fictional non-profit organisation (NPO) dedicated to
 ---
 
 ### Version 1.3.0 (Final Part 1)
-**Date:** [18/04/2026]
+**Date:** 18/04/2026
 
 **Added:**
 - Completed all HTML comments explaining code sections
@@ -160,6 +190,18 @@ EduBridge South Africa is a fictional non-profit organisation (NPO) dedicated to
 - Adjusted layout, typography, navigation, and images for all breakpoints
 - Added screenshot evidence of responsive design
 - Updated references with CSS resources
+
+### 2026-06-19 – Part 3: JavaScript, SEO, and Deployment
+- Added SEO meta tags (title, description, keywords, author) to all 5 HTML pages
+- Added JavaScript link (js/main.js) to all 5 HTML pages
+- Created main.js with form validation for volunteer, sponsor, and contact forms
+- Added image lightbox gallery functionality
+- Added interactive Leaflet maps for Soweto and Tembisa locations
+- Added programme search filter to programmes.html
+- Added robots.txt file for search engine crawling
+- Added sitemap.xml file for search engine indexing
+- Updated README with Part 3 details and live URL
+- Deployed website to GitHub Pages
 
 ---
 
@@ -209,5 +251,10 @@ CSS-Tricks, 2026. *A Complete Guide to Flexbox*. [online] Available at: <https:/
 
 CSS-Tricks, 2026. *A Complete Guide to Grid*. [online] Available at: <https://css-tricks.com/snippets/css/complete-guide-grid/> [Accessed 8 May 2026].
 
----
+## References for Part 3
 
+Leaflet, 2026. *Leaflet - an open-source JavaScript library for interactive maps*. [online] Available at: <https://leafletjs.com/> [Accessed 19 June 2026].
+
+OpenStreetMap, 2026. *OpenStreetMap contributors*. [online] Available at: <https://www.openstreetmap.org/copyright> [Accessed 19 June 2026].
+
+Mozilla Developer Network, 2026. *JavaScript: Form validation*. [online] Available at: <https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation> [Accessed 19 June 2026].
