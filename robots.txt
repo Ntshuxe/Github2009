@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://Ntshuxe.github.io/EduBridgeSA-Website/sitemap.xml
+Sitemap: https://ntshuxe.github.io/Github2009/sitemap.xml
