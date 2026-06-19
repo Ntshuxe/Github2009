@@ -103,7 +103,7 @@ EduBridge South Africa is a fictional non-profit organisation (NPO) dedicated to
 
 ### Deployment
 - Website deployed on GitHub Pages
-- Live URL: https://yourusername.github.io/EduBridgeSA-Website/
+- Live URL: https://ntshuxe.github.io/Github2009/
 
 ## Changelog
 
